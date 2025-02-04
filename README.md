@@ -1,4 +1,4 @@
-# DexDiffuser
+# Pushing Everything Everywhere All At Once: Probabilistic Prehensile Pushing
 
 This is the repository adapted from <a rel="license" href="https://nerfies.github.io">Nerfies</a>.
 
