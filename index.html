@@ -146,7 +146,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We address prehensile pushing, the problem of manipulating a grasped object by pushing against the environment. Our solution is an efficient nonlinear trajectory optimization problem relaxed from an exact mixed integer non-linear trajectory optimization formulation. The critical insight is recasting the external pushers (environment) as a discrete probability distribution instead of binary variables and minimizing the entropy of the distribution. The probabilistic reformulation allows all pushers to be used simultaneously, but at the optimum, the probability mass concentrates onto one due to the entropy minimization. We numerically compare our method against a state-of-the-art sampling-based baseline on a prehensile pushing task. The results demonstrate that our method finds trajectories 8 times faster and at a 20 times lower cost than the baseline. Finally, we demonstrate that a \textcolor{blue}{simulated and real} \panda{} robot can successfully manipulate different objects following the trajectories proposed by our method.
+            We address prehensile pushing, the problem of manipulating a grasped object by pushing against the environment. Our solution is an efficient nonlinear trajectory optimization problem relaxed from an exact mixed integer non-linear trajectory optimization formulation. The critical insight is recasting the external pushers (environment) as a discrete probability distribution instead of binary variables and minimizing the entropy of the distribution. The probabilistic reformulation allows all pushers to be used simultaneously, but at the optimum, the probability mass concentrates onto one due to the entropy minimization. We numerically compare our method against a state-of-the-art sampling-based baseline on a prehensile pushing task. The results demonstrate that our method finds trajectories 8 times faster and at a 20 times lower cost than the baseline. Finally, we demonstrate that a simulated and real Franka Emika Panda robot can successfully manipulate different objects following the trajectories proposed by our method.
           </p>
         </div>
       </div>
@@ -164,7 +164,7 @@
     </div> -->
     <!--/ Paper video. -->
 
-  <div class="columns is-centered has-text-centered">
+  <!-- <div class="columns is-centered has-text-centered">
     <div class="column is-full-width">
       <h2 class="title is-3">Trajectory optimization example</h2>
       <div class="publication-video">
@@ -177,7 +177,7 @@
     </div>
   </div>
  
-</div>
+</div> -->
 
   <div class="columns is-centered has-text-centered">
     <div class="column is-full-width">
@@ -196,7 +196,7 @@
 
   <div class="columns is-centered has-text-centered">
     <div class="column is-full-width">
-      <h2 class="title is-3">Real robotic experiments</h2>
+      <h2 class="title is-3"></h2>
       <div class="publication-video">
         <div class="content has-text-centered">
           <video id="table-picking" autoplay controls muted preload loop playsinline>
@@ -207,6 +207,40 @@
     </div>
   </div>
 
+  <div class="columns is-centered has-text-centered">
+    <div class="column is-full-width">
+      <h2 class="title is-3">Real robotic experiments</h2>
+      <div class="columns is-centered">
+        <!-- First video -->
+        <div class="column is-one-third">
+          <div class="content has-text-centered">
+            <h2 class="title is-3">Square</h2>
+            <video autoplay controls muted preload loop playsinline>
+              <source src="resources/real_robot_experiment.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <!-- Second video -->
+        <div class="column is-one-third">
+          <div class="content has-text-centered">
+            <h2 class="title is-3">T-shape</h2>
+            <video autoplay controls muted preload loop playsinline>
+              <source src="resources/real_robot_experiment.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <!-- Third video -->
+        <div class="column is-one-third">
+          <div class="content has-text-centered">
+            <h2 class="title is-3">L-shape</h2>
+            <video autoplay controls muted preload loop playsinline>
+              <source src="resources/l_shape_real.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 </div>
